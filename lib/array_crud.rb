@@ -1,35 +1,43 @@
-def create_an_empty_array
+def 
+  people_i_trust[]
   
 end
 
-def create_an_array
+def 
+  places_to_visit[ St.Croix, Brazil, London ]
   
 end
 
-def add_element_to_end_of_array(array, element)
+def 
+  places_to_visit << "Boswana"
   
 end
 
-def add_element_to_start_of_array(array, element)
+def 
+  places_to_visit.unshift("Dominica")
   
 end
 
-def remove_element_from_end_of_array(array)
+def 
+  London = places_to_visit.pop
   
 end
 
-def remove_element_from_start_of_array(array)
+def
+St.Croix = places_to_visit.shift
   
 end
 
-def retrieve_element_from_index(array, index_number)
+def 
+  places_to_visit.index[1]
   
 end
 
-def retrieve_first_element_from_array(array)
+def 
+  places_to_visit[0]
   
 end
 
-def retrieve_last_element_from_array(array)
-  
+def 
+  places_to_visit[2]
 end
